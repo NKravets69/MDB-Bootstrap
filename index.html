@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="./css/css/style.css" />
+    <style>
+      html,
+      body,
+      header {
+        height: 60vh;
+      }
+      @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+        @media (min-width: 800px;) and (max-width: 850px) {
+          html,
+          body,
+          header,
+          .carousel {
+            height: 100vh;
+          }
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar"
+    >
+      <div class="container">
+        <a href="#" class="navbar-brand waves-effect">
+          <strong class="blue-text">WDB</strong>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-iteam active">
+              <a href="#" class="nav-link waves-effect">Home</a>
+            </li>
+            <li class="nav-iteam ">
+              <a href="#" class="nav-link waves-effect">Product</a>
+            </li>
+            <li class="nav-iteam ">
+              <a href="#" class="nav-link waves-effect">About us</a>
+            </li>
+            <li class="nav-iteam ">
+              <a href="#" class="nav-link waves-effect">Blog</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">
+                <span class="badge red z-depth-1 mr-1">13</span>
+                <i class="fa fa-shopping-cart"></i>
+                <span class="clearfix d-none d-sm-inline-block">Cart</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link waves-effect">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="#"
+                class="nav-link border border-light rounded waves-effect"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carousel-ex"
+      class="carousel slide carousel-fade pt-4"
+      data-ride="carousel"
+    >
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li class="active" data-target="#carousel-ex" data-slide-to="0"></li>
+        <li data-target="#carousel-ex" data-slide-to="1"></li>
+        <li data-target="#carousel-ex" data-slide-to="2"></li>
+      </ol>
+      <!-- End indicators -->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <!-- View bg -->
+          <div class="view">
+            <img
+              class="d-block w-100"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+              alt="First slide"
+            />
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <!-- View end -->
+          <div
+            class="carousel-custom-caption d-flex justify-content-center align-items-center"
+          >
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Web Developer Blog</strong>
+              </h1>
+              <p>
+                <strong
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Saepe, culpa?</strong
+                >
+              </p>
+              <p class="mb-4 d-none d-md-block">
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora atque, doloribus unde aliquid consectetur
+                  voluptas.</strong
+                >
+              </p>
+              <a href="#" class="btn btn-outline-white btn-lg">
+                Lorem, ipsum dolor <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="view">
+            <img
+              class="d-block w-100"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+              alt="First slide"
+            />
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div
+            class="carousel-custom-caption d-flex justify-content-center align-items-center"
+          >
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Web Developer Blog</strong>
+              </h1>
+              <p>
+                <strong
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Saepe, culpa?</strong
+                >
+              </p>
+              <p class="mb-4 d-none d-md-block">
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora atque, doloribus unde aliquid consectetur
+                  voluptas.</strong
+                >
+              </p>
+              <a href="#" class="btn btn-outline-white btn-lg">
+                Lorem, ipsum dolor <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item ">
+          <div class="view">
+            <img
+              class="d-block w-100"
+              src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+              alt="First slide"
+            />
+            <div class="mask rgba-black-strong"></div>
+          </div>
+          <div
+            class="carousel-custom-caption d-flex justify-content-center align-items-center"
+          >
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong>Web Developer Blog</strong>
+              </h1>
+              <p>
+                <strong
+                  >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Saepe, culpa?</strong
+                >
+              </p>
+              <p class="mb-4 d-none d-md-block">
+                <strong
+                  >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora atque, doloribus unde aliquid consectetur
+                  voluptas.</strong
+                >
+              </p>
+              <a href="#" class="btn btn-outline-white btn-lg">
+                Lorem, ipsum dolor <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#carousel-ex"
+        class="carousel-control-prev"
+        role="button"
+        data-slide="prev"
+        ><span class="carousel-control-prev-icon" aria-hidden="true"></span
+      ></a>
+      <a
+        href="#carousel-ex"
+        class="carousel-control-next"
+        role="button"
+        data-slide="next"
+        ><span class="carousel-control-next-icon" aria-hidden="true"></span
+      ></a>
+    </div>
+
+    <main>
+      <div class="container">
+        <nav
+          class="navbar navbar-expand-lg navbar-dark 
+          mdb-color lighten-3 mt-3 mb-5"
+        >
+          <span class="navbar-brand">Categories</span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#nextNav"
+            aria-controls="navbarContent"
+            aria-expanded="false"
+            aria-label="toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="nextNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item "><a href="#" class="nav-link">All</a></li>
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Shirts</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Sport wears</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Outwears</a>
+              </li>
+            </ul>
+            <form class="form-inline">
+              <div class="md-form my-0">
+                <input
+                  type="text"
+                  class="form-control mr-sm-2"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+              </div>
+            </form>
+          </div>
+        </nav>
+        <section class="text-center mb-4">
+          <div class="row wow fadeIn">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://i.pinimg.com/originals/09/69/4c/09694c710e1d49b0ffa0095657f5b4bd.jpg"
+                    alt="ballerina t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Ballerina t-shirt
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>35$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://www.dhresource.com/0x0/f2/albu/g10/M00/CC/95/rBVaWVypmtaAZoI8AAEi-s3aZOA159.jpg"
+                    alt="pony  t-shirts"
+                  />
+                  <a href="#">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="#" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="#" class="dark-grey-text"
+                        >Pony t-shirts
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>20$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://www.dhresource.com/0x0s/f2-albu-g6-M01-51-17-rBVaR1s7HNOAJveaAANg7oVSaOE485.jpg/girls-clothing-love-printing-t-shirts-for.jpg"
+                    alt="Love t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Love t-shirt
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>15$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/5621048023764"
+                    alt="Disney t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Disney t-shirt
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>35$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row wow fadeIn">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://www.childrensalonoutlet.com/media/catalog/product/cache/0/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/m/a/mayoral-girls-white-cotton-t-shirt-252855-0395274fa2500c9c3ba7f3f4ab0a4e6d7fb8fad7.jpg"
+                    alt="Blue girl t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Blue girl t-shirts
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>15$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://i.pinimg.com/originals/3e/6d/0d/3e6d0df2cb564fac3321b1c4eedd0cd7.jpg"
+                    alt="Petite t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Petite t-shirt
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>15$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/5621048023996"
+                    alt="Mickey t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Mickey t-shirt
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>17$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card">
+                <div class="view overlay">
+                  <img
+                    class="card-img-top"
+                    src="https://cdn.childrensalon.com/media/catalog/product/cache/0/image/1000x1000/9df78eab33525d08d6e5fb8d27136e95/g/u/gucci-baby-girls-pink-cotton-t-shirt-281433-3511160d93d1e7d2c48f603507ac280a7f3177d5.jpg"
+                    alt="Gucci t-shirts"
+                  />
+                  <a href="">
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+                <div class="card-body text-center">
+                  <a href="" class="grey-text">
+                    <h5>T-shirt</h5>
+                  </a>
+                  <h5>
+                    <strong
+                      ><a href="" class="dark-grey-text"
+                        >Gucci t-shirt
+                        <span class="badge badge-pill danger-color"
+                          >NEW</span
+                        ></a
+                      ></strong
+                    >
+                  </h5>
+                  <h4 class="font-weight-bold blue-text">
+                    <strong>126$</strong>
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <nav class="d-flex justify-content-center wow fadeIn">
+          <ul class="pagination pg-blue">
+            <li class="page-item disabled">
+              <a href="" class="page-link" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a href="" class="page-link" aria-label="Previous">
+                <span aria-hidden="true">1</span>
+              </a>
+            </li>
+            <li class="page-item ">
+              <a href="" class="page-link" aria-label="Previous">
+                <span aria-hidden="true">2</span>
+              </a>
+            </li>
+            <li class="page-item ">
+              <a href="" class="page-link" aria-label="Previous">
+                <span aria-hidden="true">3</span>
+              </a>
+            </li>
+            <li class="page-item ">
+              <a href="" class="page-link" aria-label="Previous">
+                <span aria-hidden="true">4</span>
+              </a>
+            </li>
+            <li class="page-item ">
+              <a href="" class="page-link" aria-label="Previous">
+                <span aria-hidden="true">5</span>
+              </a>
+            </li>
+            <li class="page-item ">
+              <a href="" class="page-link" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </main>
+    <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+      <div class="pt-4">
+        <a href="#" role="button" class="btn btn-outline-white"
+          >WDB <i class="fa fa-graduation-cap ml-2"></i
+        ></a>
+        <a href="#" role="button" class="btn btn-outline-white"
+          >Online shop <i class="fa fa-graduation-cap ml-2"></i
+        ></a>
+      </div>
+      <hr class="my-4" />
+      <div class="pb-4">
+        <a href="#"><i class="fab fa-facebook-f mr-3"></i></a>
+        <a href="#"><i class="fab fa-twitter mr-3"></i></a>
+        <a href="#"><i class="fab fa-youtube mr-3"></i></a>
+        <a href="#"><i class="fab fa-google-plus-g mr-3"></i></a>
+        <a href="#"><i class="fab fa-dribbble m mr-3"></i></a>
+        <a href="#"><i class="fab fa-pinterest mr-3"></i></a>
+        <a href="#"><i class="fab fa-github mr-3"></i></a>
+      </div>
+      <div class="footer-copyright py-3">
+        Web Developer Blog
+      </div>
+    </footer>
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
